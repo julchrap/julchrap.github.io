@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    text-underline-position: below;
+    text-decoration: underline
+   }
+
+body{
+    background-image: url("ep_naturalwhite.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.25);
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 48px;
+    margin: 10px 0 20px;
+    font-variant: small-caps;
+}
+
+h1 a{
+    color:  #fafafa;
+}
+
+header ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 70px
+}
+footer{
+
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+}
+
+
+.media{
+    width: 100%;
+    min-height: 300px;   
+    display: flex;
+    justify-content: center;
+}
+.media > a{
+    width: 25%;
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    line-height: 300px;
+    
+}
+.facebook{
+    background-color:#3B5998;
+}
+
+.email{
+    background-color: #D44638;
+}
+
+ul{
+    list-style-type: none;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+ul li{
+    width: 20%;
+    padding: 20px 50px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+#zegar{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.obrazek1{
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+
+.tekscik1{
+    line-height: 40px;
+    padding-right: 60px;
+ }
+
+.tabela1{ 
+    text-align: center;
+    width:50%; height:350px; 
+    margin-left: 35px;
+}
+
+.naglowek1{
+    margin-bottom: 10px
+}
+.obrazek2{
+    width: 44%; 
+    padding-right: 40px;
+    margin-bottom: 100px;
+}
+
+.obrazek3{
+    width:650px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.tekscik2{
+    line-height: 50px;
+    padding-right: 60px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.zrodla1{
+    margin-left: 40px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.obraz1{
+    width: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.tekst1{
+    line-height: 50px;
+    padding-left: 80px;
+    text-indent: 7%;
+}
+
+.tabela2{ 
+    text-align: center;
+    width:50%; height:350px; 
+    margin-left: 35px;
+    margin-bottom: 60px;
+    margin-right: 35px;
+}
+
+.naglowek2{
+    margin-bottom: 10px
+}
+
+.obraz2{
+    width: 44%;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 7px;
+    margin-bottom: 55px;
+}
+
+.obraz3{
+    width: 44%;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 7px ;
+    margin-right: 55px;
+}
+
+.tekst3{
+    line-height: 60px;
+    padding-right: 80px;
+    text-indent: 7%;
+    margin-bottom:110px; 
+}
+
+.zrodla2{
+    margin-left: 40px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.obr1{
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+
+.tkst1{
+    line-height: 45px;
+    padding-right: 80px;
+    text-indent: 7%;
+    padding-top: 20px; 
+    margin-bottom: 80px; 
+}
+
+.obr2{
+    width: 630px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+    padding-right: 60px;
+}
+
+.tbl1{
+    text-align: center;
+    width:45%; height:500px; 
+    margin-left: 35px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+    margin-top:20px;
+}
+
+.obr3{
+    width: 44%; 
+    margin-right: 40px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+.tkst2{
+    line-height: 55px;
+    padding-left: 80px;
+    padding-right: 100px;
+    text-indent: 7%;
+}
+
+.zrdl2{
+    margin-left: 40px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.mo1{
+     width: 400px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.mt1{
+    line-height: 50px;
+    padding-left: 80px;
+    text-indent: 7%;
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+.mo2{
+    width:600px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 88px;
+}
+
+.mtab{
+    text-align: center;
+    width:45%; height:350px; 
+    margin-left: 55px;
+    margin-bottom: 70px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.mo3{
+    width:550px;
+    margin-left: 45px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.mt2{
+    line-height: 50px;
+    padding-left: 50px;
+    text-indent: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mz1{
+    margin-left: 50px;
+    line-height: 25px;
+    margin-bottom: 40px;
+}

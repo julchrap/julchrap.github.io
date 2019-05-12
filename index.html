@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciekawe miejsca na świecie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+   <header>
+    <p id="zegar"></p>
+    <script language="javascript">
+            var DDMMYY =0
+            var MMDDYY =1
+            
+            function getdate(mode)
+            {
+               var now = new Date();
+               var dayNr = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+               if (mode==DDMMYY)
+                  var MonthDayYear =(dayNr+"/"+(now.getMonth()+1)+"/"+now.getFullYear());
+               else
+                  var MonthDayYear =((now.getMonth()+1)+"/"+dayNr+"/"+now.getFullYear());
+            
+               return MonthDayYear;
+            }//-->
+            </script>
+            <script language="javascript">document.write(getdate(DDMMYY));</script>
+       <h1><a href="index.html">Ciekawe miejsca na świecie</a></h1>
+       <br><br>
+        <nav>
+            <ul>
+                <li><a href="#">strona główna</a></li>
+                <li><a href="wietnam.html">wietnam</a></li>
+                <li><a href="kambodza.html">kambodża</a></li>
+                <li><a href="tajlandia.html">tajlandia</a></li>
+                <li><a href="mjanma.html">mjanma</a></li>
+            </ul>
+        </nav>
+   </header>
+   <br><br>
+   <main>
+       <section></section>
+       <section class="media">
+           <a href="https://www.facebook.com/julia.chraplak" class="facebook"><i class="fab fa-facebook-f"></i></a>
+           <a href="mailto:julchrap@gmail.com" class="email"><i class="fas fa-at"></i></a>
+       </section>
+   </main>
+   <footer>Strona stworzona przez Julię Chraplak &copy; 2019</footer>
+    <script src="script.js"></script>
+</body>
+</html>
